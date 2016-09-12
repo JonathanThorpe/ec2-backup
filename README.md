@@ -74,9 +74,10 @@ An email will be sent to that email address - follow the directions to complete 
 
 ### Scheduling
 To schedule the backup, perform the following when installing the Lambda script:
+
 1. Click on the Triggers tab.
 2. Click "Add Trigger".
-3. Add a new trigger source and search for "CloudWatch Events - Schedule". Specify the schedule expression in CRON format - e.g. cron(0 3 * * ? *) - 3am UTC. Please note that times are in UTC.
+3. Add a new trigger source and search for "CloudWatch Events - Schedule". Specify the schedule expression in CRON format e.g. cron(0 3 * * ? *) - 3am UTC. Please note that times are in UTC.
 
 ## Configuring EC2 Instances for Backup ##
 Each instance you wish to backup requires the following two tags:
