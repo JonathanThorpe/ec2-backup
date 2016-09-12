@@ -65,6 +65,7 @@ At the top of the script, a there are a number of configuration directives:
 
 ### SES Verified Senders ###
 The Lambda function sends emails to notify administrators that the backup has taken place. This requires some initial setup:
+
 1. Go to Services -> SES
 2. Click on Email Addresses.
 3. Click "Verify new email address".
