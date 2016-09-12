@@ -1,6 +1,6 @@
 # ec2-backup
 
-This Lambda function performs backups of EC2 instances with custom retention schemes based on tags defined against those instances and sends email notifications through SES with a daily status report.
+This Lambda function performs snapshot backups of EC2 instances (inherantly to S3) with custom retention schemes based on tags defined against those instances and sends email notifications through SES with a daily status report.
 
 ## Installation ##
 ### IAM Policy Document
